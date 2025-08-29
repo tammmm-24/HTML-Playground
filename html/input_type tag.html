@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input type</title>
+</head>
+<body>
+    <form action="/contact-me">
+       Date: <input type="date"> <br> 
+       File: <input type="file"> <br>
+       Color: <input type="color"> <br>
+       Price Range: <input type="range"> <br>
+       Button: <input type="button" value="Click Me"> <br>
+      
+
+       <label for="male">Male:</label>
+       <input type="radio" id="male" name="gender" value="male"> <br>
+       <label for="female">Female:</label>
+       <input type="radio" id="female" name="gender" value="female"> <br>
+       <label for="other">Other:</label>
+       <input type="radio" id="other" name="gender" value="other"> <br>
+
+       <label for="c">C:</label>
+       <input type="checkbox" id="c" name="lang" value="c"> <br>
+       <label for="java">Java:</label>
+       <input type="checkbox" id="java" name="lang" value="java"> <br>
+       <label for="python">Python:</label>
+       <input type="checkbox" id="python" name="lang" value="python"> <br>
+
+       
+
+       <label for="Country"> Select your Country </label>
+       <select name="country" id="country">
+
+        <option value="India">India</option>
+        <option value="US">US</option>
+        <option value="UK">UK</option>
+        <option value="Other">Other</option>
+
+       </select> <br>
+
+
+       <textarea name="story" id="story" cols="20" rows="4">
+          Please write a story..
+       </textarea>   
+       Submit: <input type="submit"> <br>
+    </form>
+</body>
+</html>
